@@ -11,8 +11,7 @@ permissions:
   deployments: write
 
 jobs:
-  deploy-v5:
-    # if: ${{ github.repository == 'jackyzha0/quartz' }}
+  deploy-v5:    
     runs-on: ubuntu-latest
     name: Deploy v5 to Cloudflare Pages
     steps:
